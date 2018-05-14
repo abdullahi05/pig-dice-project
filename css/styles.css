@@ -1,9 +1,4 @@
 
-h1{
-  color: yellow;
-  font-family: monospace;
-  text-decoration: underline;
-}
 .box{
   background-color: blue;
   font-size: 20px;
@@ -14,5 +9,6 @@ h1{
   padding-right: 60px;
 
 }
-
+.btn{
+  text-align: center;
 }
