@@ -30,7 +30,7 @@ Player.prototype.hold = function () {
   this.totalscore += this.score;
   this.score = 0;
   // this.changeturn();
-  alert(this.playerName + ", your turn is over, pass the mouse!");
+  alert(this.playerName + ", TURN IS OVER, NEXT PLEASE!");
 }
 
 // // changing turn
@@ -44,7 +44,7 @@ Player.prototype.hold = function () {
 // check for 100
 Player.prototype.winnerCheck = function () {
   if (this.totalscore >= 100) {
-    alert(this.playerName + " You are the winner!");
+    alert(this.playerName + " You are the CHAMPION!!!");
   }
 }
 
