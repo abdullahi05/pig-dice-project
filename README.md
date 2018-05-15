@@ -38,7 +38,8 @@ contact:@0799745481,
 social media facebook:@abdullahi mohamed,
              instagram busyapp.
 
-             you can follow and visit using the following link
+             you can follow and visit using the following link:
+             @https://abdullahi05.github.io/pig-dice-project/.
 
 
 ##License
