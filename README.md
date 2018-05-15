@@ -3,7 +3,7 @@
 
 ###### BY **abdullahi mohamed**
 
-##description
+description
 
  the project is all about pig dice project.
  a game that is designed using little experience
@@ -11,7 +11,7 @@
  about playing dice games with another partner.the roll
  is about clicking the roll button and the dice is rolled.
 
-#specifications
+specifications
 
  examples are:
   roll;on clicking
@@ -24,25 +24,25 @@ examples
  ;   hold button ; on click;
     alert;you've hold your chances its your partner chance;
 
-##access and downloads;
+access and downloads;
 
   the game does not need any downloads its easier to use and manage
   you just need to browse it through the Internet using the below link:
   and you could play the whole time.all help can be accessed through github
   and on-line research through your browser.
 
-##known bugs
+known bugs
 
  the website is all made only in HTML,
  CSS and some bit of JavaScript
 
-##technologies used
+technologies used
 
  the only technology used is the HTML and CSS
  languages and little bit of programming language
  (JavaScript)
 
-##help and contact information
+help and contact information
 
 for more information and help from me
 
