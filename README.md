@@ -8,28 +8,28 @@
  is about clicking the roll button and the dice is rolled.
 #specifications
  examples are:
-  user input;3
-  output;1,2,ping
+  roll;on clicking
+  dice roll;2,4,6,1(your turn is over,because you rolled 1);
+  total score;2,6,12;
 examples
-  input:5
-  output;1,2,ping,4,pong
-examples
-  input:15
-  output:1,,ping,,pong,ping,,,,pong,,,ping,,,14,pingpong(15)becouse
-  a number thats divisible by both 3 and 5 are named ping pong.
+  roll;on clicking
+  dice roll;same as above
+ When it comes to the hold button;the specs are as follows
+ ;   hold button ; on click;
+    alert;you've hold your chances its your partner chance;
 ##access and downloads;
   the game does not need any downloads its easier to use and manage
   you just need to browse it through the Internet using the below link:
   and you could play the whole time.all help can be accessed through github
-  and online research through your browser.
+  and on-line research through your browser.
 
 ##known bugs
- the website is all made only in html
- css and some bit of javascript
+ the website is all made only in HTML,
+ CSS and some bit of JavaScript
 ##technologies used
- the only technology used is the html and css
+ the only technology used is the HTML and CSS
  languages and little bit of programming language
- (javascript)
+ (JavaScript)
 ##help and contact information
 for more information and help from me
 you can contact me
@@ -39,7 +39,7 @@ social media facebook:@abdullahi mohamed,
              instagram busyapp.
 
              you can follow and visit using the following link
-               @https://abdullahi05.github.io/moringa-pong-project/
 
-## licence
- *copyright abdullahi mohamed 2018 **moringa school**
+
+##License
+ *copyright Abdullahi Mohamed 2018 **Moringa School**
