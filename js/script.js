@@ -8,7 +8,7 @@ var throwdice = function () {
 
 function Player(turn) {
   this.roll = 0;
-  this.tempscore = 0;
+  this.score = 0;
   this.totalscore = 0;
   this.turn = turn;
   this.playerName;
@@ -17,18 +17,18 @@ function Player(turn) {
 // checking for 1
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
-  this.tempscore = 0;
+  this.score = 0;
   alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
   // this.changeturn();
   } else {
-  this.tempscore += this.roll;
+  this.score += this.roll;
   }
 }
 
 // hold
 Player.prototype.hold = function () {
-  this.totalscore += this.tempscore;
-  this.tempscore = 0;
+  this.totalscore += this.score;
+  this.score = 0;
   // this.changeturn();
   alert(this.playerName + ", your turn is over, pass the mouse!");
 }
@@ -51,7 +51,7 @@ Player.prototype.winnerCheck = function () {
 Player.prototype.newGame = function () {
   //debugger;
   this.roll = 0;
-  this.tempscore = 0;
+  this.score = 0;
   this.totalscore = 0;
   this.playerName ="";
 }
@@ -99,14 +99,14 @@ $(document).ready(function() {
     player1.roll = throwdice();
     $("#die-roll-1").text(player1.roll);
     player1.rollone();
-    $("#round-total-1").text(player1.tempscore);
+    $("#round-total-1").text(player1.score);
   });
 
   $("button#player2-roll").click(function(event){
     player2.roll = throwdice();
     $("#die-roll-2").text(player2.roll);
     player2.rollone();
-    $("#round-total-2").text(player2.tempscore);
+    $("#round-total-2").text(player2.score);
   });
 
   $("button#player1-hold").click(function(event){
