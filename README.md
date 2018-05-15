@@ -32,9 +32,13 @@ examples
  (JavaScript)
 ##help and contact information
 for more information and help from me
+
 you can contact me
+
 email:abdullahimoh25@gmail.com,
+
 contact:@0799745481,
+
 social media facebook:@abdullahi mohamed,
              instagram busyapp.
 
